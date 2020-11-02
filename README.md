@@ -10,5 +10,7 @@ then we extracted:title,interlinks,and sections of each article and wrote it in 
 the result of gensim processing named enwiki-latest.json.gz which we will use it in datasetMaking.ipynb. <br/> <br/>
 for making our data set we also need to know all entities of each mention to find entities which are repeated in the article but there is no link for them because of avoidance of reputation.we took this set from resources of [Reimplimentation of Tagme](https://github.com/fedenanni/Reimplementing-TagMe).<br/>
 we used [mention_overall_dict.pickle](https://drive.google.com/drive/folders/1lcq0PRRq8o_G-L-pQrV7GG-Btn-xPFlr)<br/>
+## second step: linking sentence to entities(from_entity-to_entity)
+for this work we first used transformer [example code](https://www.tensorflow.org/tutorials/text/transformer) from tensorflow and gave our own data set instead.
 
 
