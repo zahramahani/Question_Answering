@@ -1,0 +1,25 @@
+from_entity:Beloved (novel)
+ sentence:
+	    
+		
+		
+		
+		'''''Beloved''''' is a 1987 novel by the American writer Toni Morrison.
+to_entities:Toni_Morrison
+from_entity:Beloved (novel)
+ sentence:Set after the American Civil War, it tells the story of a family of former slaves whose Cincinnati home is haunted by a malevolent spirit.
+to_entities:Slavery_in_the_United_States_,American_Civil_War,Cincinnati
+from_entity:Beloved (novel)
+ sentence:Beloved is inspired by a true life incident involving Margaret Garner, an escaped  slave from Kentucky who fled to the free state of Ohio in 1856, but was captured in accordance with the Fugitive Slave Act of 1850.
+to_entities:Slavery_in_the_United_States_,free_state,Margaret_Garner,Fugitive_Slave_Act_of_1850,Kentucky,Ohio
+from_entity:Beloved (novel)
+ sentence:Marshals burst into the cabin where Garner and her husband had barricaded themselves, they found that she had killed her two-year-old daughter and was attempting to kill her other children to spare them from being returned to slavery.
+to_entities:Slavery_in_the_United_States_
+from_entity:Beloved (novel)
+sentence:
+	    
+		
+		
+		
+		'''''Beloved''''' is a 1987 novel by the American writer Toni Morrison.
+to_entities:Toni_Morrison
