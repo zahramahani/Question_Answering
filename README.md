@@ -1,4 +1,4 @@
-# entity_linking
+# Question Answeing
 trying to find entities with the help of deeplearning in python(transformers) and wikipedia.
 ## description of dataset 
 data set is made of tripels (with inspiration of rdf) each triples contains :<br/> from_entity:the title of article(page) of wikipedia.<br/>
