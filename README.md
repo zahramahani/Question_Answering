@@ -45,7 +45,7 @@ here is a sample of data which is reterived for **[Berlin](https://en.wikipedia.
 #### **BLUE** entities, are head and tail of undirect triples.
 **undirect triples** are triples which head entity and tail entity are found in the same sentence in a page.for each pair we make 2 triple, with changing head and tail. (not implemented in making dataset sample code)
 
-![](https://github.com/zahramahani/Question_Answering/blob/master/pics/%D9%86%D9%85%D9%88%D9%86%D9%87%20%D8%B3%D8%A7%D8%AF%D9%87%20%DA%AF%D8%B1%D8%A7%D9%81%202.png)
+![](https://github.com/zahramahani/Question_Answering/blob/master/pics/simple_graph_sample_for_page_berlin.png)
 
 ## second step: using created dataset with the help of elastic search to answer the question.
 ### [CER](https://dl.acm.org/doi/10.1145/3477495.3531888)
