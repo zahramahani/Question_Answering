@@ -1,5 +1,5 @@
 # Question Answeing
-trying to find entities with the help of deeplearning in python(transformers) and wikipedia.
+trying to find entities with the help of deeplearning in python(bert) and wikipedia.
 ## description of dataset 
 data set is made of tripels (with inspiration of rdf) each triples contains :<br/> from_entity:the title of article(page) of wikipedia.<br/>
 sentence:the sentence which is in the article (the connector).<br/> to_entities: which is the set of entities that are exists in the sentence.<br/>
