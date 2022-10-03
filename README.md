@@ -17,6 +17,8 @@ trying to find question answer entities with the help of deep learning in python
 for understanding more refer to our paper [Learning to Rank Knowledge Subgraph Nodes for Entity Retrieval](https://dl.acm.org/doi/10.1145/3477495.3531888)
 
 
+
+
 ## description of textual graph
 ### data set is made of tripels (with inspiration of rdf) each triples contains
 
@@ -28,6 +30,7 @@ for understanding more refer to our paper [Learning to Rank Knowledge Subgraph N
 
 
 **to_entities (tail) :** which is the set of entities that are exists in the sentence.or an entity mention which exist with other entity mention co occured in the same sentence in any wiki page
+
 
 
 ## first step: creating textual graph 
@@ -50,17 +53,22 @@ we used [mention_overall_dict.pickle](https://drive.google.com/drive/folders/1lc
 
 
 
+
 ### example
 
 here is a sample of data which is reterived for **[Berlin](https://en.wikipedia.org/wiki/Berlin)** page in wikipedia
 
+
 #### **RED** entities, are tail of direct triples.
 **direct triples** are triples which head entity is page title and tail entity is found in a sentence in that page.
+
 
 #### **BLUE** entities, are head and tail of undirect triples.
 **undirect triples** are triples which head entity and tail entity are found in the same sentence in a page.for each pair we make 2 triple, with changing head and tail. (not implemented in **datasetMaking.ipynb** sample code)
 
+
 ![](https://github.com/zahramahani/Question_Answering/blob/master/pics/simple_graph_sample_for_page_berlin.png)
+
 
 ## second step: using created textual graph to answer the question.
 ### [CER](https://dl.acm.org/doi/10.1145/3477495.3531888)
