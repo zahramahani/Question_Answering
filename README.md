@@ -58,7 +58,7 @@ here is a sample of data which is reterived for **[Berlin](https://en.wikipedia.
 **direct triples** are triples which head entity is page title and tail entity is found in a sentence in that page.
 
 #### **BLUE** entities, are head and tail of undirect triples.
-**undirect triples** are triples which head entity and tail entity are found in the same sentence in a page.for each pair we make 2 triple, with changing head and tail. (not implemented in making dataset sample code)
+**undirect triples** are triples which head entity and tail entity are found in the same sentence in a page.for each pair we make 2 triple, with changing head and tail. (not implemented in **datasetMaking.ipynb** sample code)
 
 ![](https://github.com/zahramahani/Question_Answering/blob/master/pics/simple_graph_sample_for_page_berlin.png)
 
