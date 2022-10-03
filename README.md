@@ -1,4 +1,4 @@
-# Question Answeing
+# Question Answeing (CER)
 trying to find question answer entities with the help of deep learning in python(bert), textual graph and wikipedia.
 
 
